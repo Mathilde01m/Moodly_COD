@@ -35,8 +35,6 @@ export default function OnboardingManager() {
 
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.title}>Suivi d'Onboarding </Text>
-
       {usersOnboardingData.map((user, index) => (
         <View key={index} style={styles.userContainer}>
           <Text style={styles.username}>{user.username}</Text>
