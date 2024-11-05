@@ -30,8 +30,8 @@ const LoginScreen = () => {
 
 
       // Rediriger en fonction du rôle
-      if (roleId === 0) {
-        router.push('./manager/home');
+      if (roleId === 3) {
+        router.push('./(tabs2)/ticket');
       } else if (roleId === 1) {
         router.push('./(tabs)/mail');
       } else {
