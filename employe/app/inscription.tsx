@@ -11,7 +11,7 @@ const RegisterScreen = () => {
 
   const handleRegister = async () => {
     try {
-      const response = await axios.post('http://localhost:1337/api/users', {
+      const response = await axios.post('http://10.76.203.111:1337/api/users', {
         username: username,
         email: email,
         password: password,
