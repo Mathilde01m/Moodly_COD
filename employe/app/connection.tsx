@@ -30,10 +30,10 @@ const LoginScreen = () => {
 
 
       // Rediriger en fonction du rôle
-      if (roleId === 0) {
-        router.push('./manager/home');
+      if (roleId === 3) {
+        router.push('./(tabs2)/home');
       } else if (roleId === 1) {
-        router.push('./(tabs)/mail');
+        router.push('./(tabs)/home');
       } else {
         console.log("Role ID reçu :", roleId); // Pour voir la valeur actuelle de roleId
         Alert.alert('Erreur', 'Rôle d utilisateur non reconnu.');
